@@ -607,3 +607,7 @@ span.title-vantage:after,
   content: " ";
   position: absolute;
 }
+
+.hq-logo {
+  width: 220px;
+}
