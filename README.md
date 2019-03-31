@@ -1,2 +1,1 @@
-# alcourses-landing
-Alcourses landing page
+# Alcourses survey page
