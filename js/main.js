@@ -27,23 +27,3 @@ $(document).ready(function(){
   }).eq(0).addClass("active");
 
 });
-
-
-  // Analytics code
-  const timeout = 10000;
-  var events = [];
-
-  function logEvent(event) {
-    console.log(event);
-    events.push(event);
-  }
-
-  function sendEventsToServer() {
-    // TODO
-    console.log('Not implemented - it will send elements to server');
-    console.log('Current events: ');
-    console.log(events);
-    events = [];
-  }
-
-  setInterval(sendEventsToServer, timeout);
